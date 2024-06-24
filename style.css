@@ -1,0 +1,38 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+img {
+  height: 300px;
+  width: 300px;
+}
+
+body {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 225px;
+  margin-right: 225px;
+  text-align: center;
+  color: white;
+  font-family: 'Georgia';
+  font-size: 20px;
+  background-color: black;
+  letter-spacing: 1px;
+}
+
+pre {
+  font-family: 'Georgia';
+  font-size: 20px;
+  text-align: left;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+h2 {
+  color: rebeccapurple;
+}
+
+h1 {
+  outline: 5px dotted rebeccapurple;
+}
