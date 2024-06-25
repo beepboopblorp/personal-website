@@ -3,46 +3,73 @@ html {
   width: 100%;
 }
 
-img {
-  height: 300px;
-  width: 300px;
-  outline: 2.5px solid rebeccapurple;
-}
-
 body {
-  margin-top: 30px;
-  margin-bottom: 50px;
+  margin-top: 40px;
   margin-left: 225px;
   margin-right: 225px;
   text-align: center;
   color: white;
   font-family: 'Georgia';
   font-size: 20px;
-  background-color: black;
+  background-image: url("https://img.freepik.com/premium-photo/close-up-black-rose-with-gold-leaves-glitter-generative-ai_901242-34032.jpg?w=740");
+  background-size: 50% 100%;
   letter-spacing: 1px;
+}
+
+div.imgcontainer {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+img {
+  width: 75%;
+  height: 75%;
+}
+
+div.textoverlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 30px;
+  color: white;
+  background-color: rgb(0,0,0,0.75);
+}
+
+p {
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 pre {
   font-family: 'Georgia';
   font-size: 20px;
   text-align: left;
-  margin-left: 200px;
 }
 
 h2 {
   color: rebeccapurple;
+  border-radius: 18px;
+  border-color: white;
+  border-style: solid;
+  border-width: 2.5px;
+  width: 75%;
+  margin-left: 12.5%;
+  background-color: rgb(0,0,0,0.75);
 }
 
 h1 {
   outline: 5px groove rebeccapurple;
 }
 
+
 a:link {
-  color: rebeccapurple;
+  color: black
 }
 
 a:visited {
-  color: rebeccapurple;
+  color: black;
 }
 
 a:hover {
@@ -54,5 +81,27 @@ a:active {
 }
 
 #notDisplayed {
-  color: rebeccapurple;
+  color: black;
+}
+
+div.transbox {
+  background-color: rgb(102,51,153,0.75);
+  border: 2.5px solid black;
+}
+
+div.transboxpre {
+  background-color: rgb(102,51,153,0.75);
+  border: 2.5px solid black;
+  width: 75%;
+  margin-left: 12.5%;
+}
+
+h3 {
+  border-radius: 18px;
+  border-color: white;
+  border-style: solid;
+  border-width: 2.5px;
+  width: 50%;
+  margin-left: 25%;
+  background-color: rgb(0,0,0,0.5);
 }
