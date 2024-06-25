@@ -6,10 +6,11 @@ html {
 img {
   height: 300px;
   width: 300px;
+  outline: 2.5px solid rebeccapurple;
 }
 
 body {
-  margin-top: 50px;
+  margin-top: 30px;
   margin-bottom: 50px;
   margin-left: 225px;
   margin-right: 225px;
@@ -25,8 +26,7 @@ pre {
   font-family: 'Georgia';
   font-size: 20px;
   text-align: left;
-  margin-left: 150px;
-  margin-right: 150px;
+  margin-left: 200px;
 }
 
 h2 {
@@ -34,5 +34,25 @@ h2 {
 }
 
 h1 {
-  outline: 5px dotted rebeccapurple;
+  outline: 5px groove rebeccapurple;
+}
+
+a:link {
+  color: rebeccapurple;
+}
+
+a:visited {
+  color: rebeccapurple;
+}
+
+a:hover {
+  color: darkblue;
+}
+
+a:active {
+  color: darkblue;
+}
+
+#notDisplayed {
+  color: rebeccapurple;
 }
