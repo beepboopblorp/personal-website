@@ -16,6 +16,34 @@ body {
   letter-spacing: 1px;
 }
 
+.light-mode {
+  color: black;
+  background-image: url("https://as2.ftcdn.net/v2/jpg/05/74/86/45/1000_F_574864594_J1rwHeGNXZ5iaY4N33chv1Y47BVSfWN3.jpg");
+  background-size: 100% 100%;
+  background-position-x: -100px;
+}
+
+button {
+  border-radius: 20px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: rebeccapurple;
+  font-family: "Georgia";
+  font-size: 15px;
+  width: 100px;
+  height: 25px;
+  background-color: #f9e4bc;
+  color: black;
+  
+}
+
+button:hover {background-color: white}
+
+button:active {
+  background-color: white;
+  box-shadow: 0 2.5px #333;
+  transform: translateY(1px);
+
 div.imgcontainer {
   position: relative;
   text-align: center;
