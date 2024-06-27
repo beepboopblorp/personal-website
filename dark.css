@@ -1,0 +1,128 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  margin-top: 40px;
+  margin-left: 225px;
+  margin-right: 225px;
+  text-align: center;
+  color: white;
+  font-family: 'Georgia';
+  font-size: 20px;
+  letter-spacing: 1px;
+  background-image: url("https://img.freepik.com/premium-photo/close-up-black-rose-with-gold-leaves-glitter-generative-ai_901242-34032.jpg?w=740");
+  background-size: 50% 100%;
+}
+
+button {
+  border-radius: 20px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: rebeccapurple;
+  font-family: "Georgia";
+  font-size: 20px;
+  width: 200px;
+  height: 50px;
+  background-color: #111;
+  color: white;
+}
+
+button:hover {background-color: black}
+
+button:active {
+  background-color: black;
+  box-shadow: 0 2.5px #333;
+  transform: translateY(1px);
+}
+
+div.imgcontainer {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+img {
+  width: 75%;
+  height: 75%;
+}
+
+div.textoverlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 30px;
+  color: white;
+  background-color: rgb(0,0,0,0.75);
+}
+
+p {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+pre {
+  font-family: 'Georgia';
+  font-size: 20px;
+  text-align: left;
+}
+
+h2 {
+  color: rebeccapurple;
+  border-radius: 18px;
+  border-color: white;
+  border-style: solid;
+  border-width: 2.5px;
+  width: 75%;
+  margin-left: 12.5%;
+  background-color: rgb(0,0,0,0.75);
+}
+
+h1 {
+  outline: 5px groove rebeccapurple;
+}
+
+
+a:link {
+  color: black
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color: darkblue;
+}
+
+a:active {
+  color: darkblue;
+}
+
+#notDisplayed {
+  color: black;
+}
+
+div.transbox {
+  background-color: rgb(102,51,153,0.75);
+  border: 2.5px solid black;
+}
+
+div.transboxpre {
+  background-color: rgb(102,51,153,0.75);
+  border: 2.5px solid black;
+  width: 75%;
+  margin-left: 12.5%;
+}
+
+h3 {
+  border-radius: 18px;
+  border-color: white;
+  border-style: solid;
+  border-width: 2.5px;
+  width: 50%;
+  margin-left: 25%;
+  background-color: rgb(0,0,0,0.5);
+}
