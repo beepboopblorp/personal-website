@@ -1,130 +1,143 @@
 html {
-  height: 100%;
-  width: 100%;
-}
+    height: 100%;
+    width: 100%;
+  }
+  
+  body {
+    margin-top: 40px;
+    margin-left: 225px;
+    margin-right: 225px;
+    text-align: center;
+    font-family: 'Georgia';
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: black;
+    background-image: url("https://img.freepik.com/premium-photo/white-gold-roses_81048-38542.jpg?w=740");
+    background-size: 50% 75%;
+    background-position-x: -100px;
+  }
+  
+  button {
+    border-radius: 20px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #967bb6;
+    font-family: "Georgia";
+    font-size: 20px;
+    width: 200px;
+    height: 50px;
+    background-color: #f9e4bc;
+    color: black;
+  }
+  
+  button:hover {background-color: white}
+  
+  button:active {
+    background-color: white;
+    box-shadow: 0 2.5px #333;
+    transform: translateY(1px);
+  }
+  
+  div.imgcontainer {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  
+  img {
+    width: 75%;
+    height: 75%;
+  }
+  
+  div.textoverlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    color: black;
+    background-color: rgb(255,255,255,0.75);
+  }
+  
+  p {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  
+  pre {
+    font-family: 'Georgia';
+    font-size: 20px;
+    text-align: left;
+  }
+  
+  h2 {
+    color: #967bb6;
+    border-radius: 18px;
+    border-color: #967bb6;
+    border-style: solid;
+    border-width: 2.5px;
+    width: 75%;
+    margin-left: 12.5%;
+    background-color: rgb(255,255,255,0.75);
+  }
+  
+  h1 {
+    outline: 5px groove #967bb6;
+  }
+  
+  .header {
+    border-radius: 18px;
+    border-color: #967bb6;
+    border-style: solid;
+    border-width: 2.5px;
+    width: 50%;
+    background-color: rgb(255,255,255,0.85);
+    color: #967bb6;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    padding-left: 1%;
+    padding-right: 1%;
+    text-decoration: none;
+  }
+  
+  .header:hover {
+    background-color: white;
+  }
+  
+  
+  div.transbox {
+    background-color: rgb(150,123,182,0.75);
+    border: 2.5px solid black;
+  }
+  
+  div.transboxpre {
+    background-color: rgb(150,123,182,0.75);
+    border: 2.5px solid black;
+    width: 75%;
+    margin-left: 12.5%;
+  }
+  
+  h3 {
+    border-radius: 18px;
+    border-color: #967bb6;
+    border-style: solid;
+    border-width: 2.5px;
+    width: 50%;
+    margin-left: 25%;
+    background-color: rgb(255,255,255,0.75);
+    color: #967bb6;
+  }
 
-body {
-  margin-top: 40px;
-  margin-left: 225px;
-  margin-right: 225px;
-  text-align: center;
-  font-family: 'Georgia';
-  font-size: 20px;
-  letter-spacing: 1px;
-  color: black;
-  background-image: url("https://img.freepik.com/premium-photo/white-gold-roses_81048-38542.jpg?w=740");
-  background-size: 50% 75%;
-  background-position-x: -100px;
-}
+  a {
+    color: black;
+    background-color: rgb(225,225,225,0.5);
+    text-decoration: none;
+    border: 2px solid black;
+    padding: 0.75%;
+    display: inline-block;
+    margin-top: .5%;
+  }
 
-button {
-  border-radius: 20px;
-  border-width: 2px;
-  border-style: solid;
-  border-color: #967bb6;
-  font-family: "Georgia";
-  font-size: 20px;
-  width: 200px;
-  height: 50px;
-  background-color: #f9e4bc;
-  color: black;
-}
-
-button:hover {background-color: white}
-
-button:active {
-  background-color: white;
-  box-shadow: 0 2.5px #333;
-  transform: translateY(1px);
-}
-
-div.imgcontainer {
-  position: relative;
-  text-align: center;
-  color: white;
-}
-
-img {
-  width: 75%;
-  height: 75%;
-}
-
-div.textoverlay {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 30px;
-  color: black;
-  background-color: rgb(255,255,255,0.75);
-}
-
-p {
-  margin-left: 50px;
-  margin-right: 50px;
-}
-
-pre {
-  font-family: 'Georgia';
-  font-size: 20px;
-  text-align: left;
-}
-
-h2 {
-  color: #967bb6;
-  border-radius: 18px;
-  border-color: #967bb6;
-  border-style: solid;
-  border-width: 2.5px;
-  width: 75%;
-  margin-left: 12.5%;
-  background-color: rgb(255,255,255,0.75);
-}
-
-h1 {
-  outline: 5px groove #967bb6;
-}
-
-
-a:link {
-  color: white;
-}
-
-a:visited {
-  color: white;
-}
-
-a:hover {
-  color: cornflowerblue;
-}
-
-a:active {
-  color: cornflowerblue;
-}
-
-#notDisplayed {
-  color: white;
-}
-
-div.transbox {
-  background-color: rgb(150,123,182,0.75);
-  border: 2.5px solid black;
-}
-
-div.transboxpre {
-  background-color: rgb(150,123,182,0.75);
-  border: 2.5px solid black;
-  width: 75%;
-  margin-left: 12.5%;
-}
-
-h3 {
-  border-radius: 18px;
-  border-color: #967bb6;
-  border-style: solid;
-  border-width: 2.5px;
-  width: 50%;
-  margin-left: 25%;
-  background-color: rgb(255,255,255,0.75);
-  color: #967bb6;
-}
+  a:hover {
+    background-color: white;
+  }
